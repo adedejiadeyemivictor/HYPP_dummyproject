@@ -16,13 +16,13 @@ body{
     width: 100%;
     font-size: 16px;
     font-family: 'Noto Serif', serif;
+    
 
 }
 
 header{
     height: 450px;
     background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/background.jpg');
-    background-size: cover;
     background-size: cover;
     color: azure;   
 }
@@ -139,10 +139,11 @@ li.nav_item{
 
 .web_body{
     padding-top: 130px;
-    padding-right: 250px;
-    padding-left: 250px;
+    /* padding-right: 250px;
+    padding-left: 250px; */
     text-align: center;
     padding-bottom: 130px;
+    background-size: cover;
 }
 
 .web_body_header{
@@ -183,8 +184,8 @@ li.nav_item{
 .web_body2_header{
     padding-bottom: 30px;
     font-size: 20px;
-    padding-left: 250px;
-    padding-right: 250px;
+    /* padding-left: 250px;
+    padding-right: 250px; */
     text-align: center;
 
 }
@@ -192,8 +193,8 @@ li.nav_item{
 .web_body2_content{
     padding-bottom: 30px;
     font-size: 18px;
-    padding-left: 300px;
-    padding-right: 300px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
     text-align: center;
 
 }
