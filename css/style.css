@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif:ital,wght@0,400;1,700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,700&family=Poppins&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+
+}
+
+header{
+    height: 450px;
+    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/background.jpg');
+    background-size: cover;
+    background-size: cover;
+    color: azure;   
+}
+
+nav{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+    background-color: rgb(36, 16, 32);
+    color: white;
+}
+
+.logo{
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 40px;
+        
+}
+
+.Headder_content_title{
+    padding-bottom: 30px;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li.nav_item{
+    list-style: none;
+    margin: 4px;
+    
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: inherit;
+}
+.Header_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.Header_content{
+    width: 50%;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+
+.Event_btn{
+    background: none;
+    border: 2px solid rgb(207, 173, 22);
+    color:yellow;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.header_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+.Event_sermon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;   
+}
+
+.Next_event{
+    text-align:center;
+    padding: 0 20px;
+    background-color: rgb(224, 224, 224);
+    width: 250px;
+    padding: 20px;
+}
+
+.Latest_sermon{
+    text-align:center;
+    padding: 0 20px;
+    background-color: rgb(224, 224, 224);
+    width: 250px;
+    padding: 20px;  
+}
+.Event_btn2{
+    background: none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 9, 210);
+    padding: 5px;
+    margin-top: 5px;
+}  
+
+.Event_btn3{
+    background: none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 9, 210);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.web_body{
+    padding-top: 130px;
+    padding-right: 250px;
+    padding-left: 250px;
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+.web_body_header{
+    padding-bottom: 30px;
+    font-size: 22px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+.web_body_content{
+
+    padding-bottom: 30px;
+    font-size: 18px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.web_body_btn{
+    background: rgb(241, 1, 201);
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 250, 250);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.web_body2{
+    height: 350px;
+    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/innerbody.jpg');
+    background-size: cover;
+    width: 100%;
+    color: azure;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.web_body2_header{
+    padding-bottom: 30px;
+    font-size: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+
+}
+
+.web_body2_content{
+    padding-bottom: 30px;
+    font-size: 18px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+
+}
+
+.web_body2_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+
+.web_body2_item_RE{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px ;
+    padding-right: 20px;
+
+}
+
+.web_body2_item_RE a{
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.web_body2_item_AD{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px ;
+    padding-left: 20px;
+}
+
+.web_body2_item_AD a{
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.web_body2_btn{
+    background:none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 250, 250);
+    padding: 5px;
+    margin-top: 5px;
+        
+
+}
+
+
+
+
+
+
+
