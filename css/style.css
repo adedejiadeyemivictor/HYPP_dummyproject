@@ -8,7 +8,8 @@
 *{
     margin: 0;
     padding: 0;
-    /* width: 100%; */
+    
+    
 }
 
 
@@ -19,15 +20,17 @@ body{
     width: 100%;
     font-size: 16px;
     font-family: 'Noto Serif', serif;
+    background-size: contain !important;
     
 
 }
 
 header{
-    height: 450px;
+    height: 400px;
     background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/background.jpg');
     background-size: cover;
-    color: azure;   
+    color: azure;
+    width: 100%;   
 }
 
 nav{
@@ -36,17 +39,21 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 0;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     padding-right: 20px;
-    
+    width: 100%;
     background-color: rgb(36, 16, 32);
     color: white;
+    position: fixed;
+
 }
 
 .logo{
     font-size: 22px;
     font-family: 'Noto Serif', serif;
-    padding-bottom: 40px;
+    padding-left: 70px;
+    
+
         
 }
 
@@ -101,6 +108,8 @@ li.nav_item{
     justify-content:space-evenly;
     
 }
+
+
 
 .Event_sermon{
     display: flex;
@@ -177,7 +186,7 @@ li.nav_item{
 
 .web_body2{
     height: 350px;
-    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/innerbody.jpg');
+    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/panel.jpg');
     background-size: cover;
     width: 100%;
     color: azure;
@@ -248,9 +257,663 @@ li.nav_item{
 
 }
 
+.web_body3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.web_body3_mission{
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.web_body3_mission1{
+    padding-bottom: 5px;
+}
+
+.web_body3_vision{
+    padding-top: 30px;
+}
+
+.Web_body3_mission2_picture{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    
+}
+
+.Web_body3_mission2_picture1{
+    padding-top: 40px;
+    padding-right: 10px;
+
+}
+
+.Web_body3_mission2_picture3{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.Web_body3_mission2_note{
+    text-align: center;
+}
+
+
+.Web_body3_mission2_note_text{
+    color: rgb(10, 15, 15);
+    text-align: center;
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Web_body3_mission2_note_btn{
+    background:none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(189, 76, 76);
+    padding: 5px;
+    margin-top: 10px;
+
+    
+}
 
 
 
 
+@media(max-width: 480px) {
 
+
+header{
+    height: 250px;
+    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/background.jpg');
+    background-size: cover;
+    color: azure;
+    width: 100%;   
+    font-size: 13px;
+    font-family: 'Noto Serif', serif;
+}
+
+nav{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    padding-right: 20px;
+    width: 100%;
+    background-color: rgb(36, 16, 32);
+    color: white;
+    position: fixed;
+
+}
+
+.Headder_content_title{
+    padding-bottom: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li.nav_item{
+    list-style: none;
+    margin: 4px;
+    
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: inherit;
+}
+.Header_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+}
+
+.Header_content{
+    width: 80%;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+
+.Event_btn{
+    background: none;
+    border: 2px solid rgb(207, 173, 22);
+    color:rgb(189, 185, 188);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.header_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+
+
+.Event_sermon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;  
+     
+}
+
+.Next_event{
+    text-align:center;
+    padding: 0 5px;
+    width: 100px;
+    padding: 5px;
+}
+
+.Latest_sermon{
+    text-align:center;
+    padding: 0 5px;
+    width: 100px;
+    padding: 5px;  
+}
+.Event_btn2{
+    background: none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 9, 210);
+    padding: 5px;
+    margin-top: 5px;
+}  
+
+.Event_btn3{
+    background: none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 9, 210);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.web_body{
+    padding-top: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-size: cover;
+    font-size: 13px;
+}
+
+.web_body_header{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.web_body_content{
+
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.web_body_btn{
+    background: rgb(241, 1, 201);
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 250, 250);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.web_body2{
+    height: 250px;
+    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/panel.jpg');
+    background-size: cover;
+    width: 100%;
+    color: azure;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.web_body2_header{
+    padding-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.web_body2_content{
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+.web_body2_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 13px;
+    
+}
+
+.web_body2_item_RE{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px ;
+    padding-right: 20px;
+
+}
+
+.web_body2_item_RE a{
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.web_body2_item_AD{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px ;
+    padding-left: 20px;
+}
+
+.web_body2_item_AD a{
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.web_body2_btn{
+    background:none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 250, 250);
+    padding: 5px;
+    margin-top: 5px;
+        
+
+}
+
+.web_body3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.web_body3_mission{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.web_body3_mission1{
+    padding-bottom: 2px;
+}
+
+.web_body3_vision{
+    padding-top: 10px;
+}
+
+.Web_body3_mission2_picture{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.Web_body3_mission2_picture1{
+    padding-top: 40px;
+    padding-right: 10px;
+
+}
+
+.Web_body3_mission2_picture3{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.Web_body3_mission2_note{
+    text-align: center;
+}
+
+
+.Web_body3_mission2_note_text{
+    color: rgb(10, 15, 15);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Web_body3_mission2_note_btn{
+    background:wheat;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(189, 76, 76);
+    padding: 5px;
+    margin-top: 10px;
+
+    
+}
+
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 720px) {
+
+    
+header{
+    height: 250px;
+    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/background.jpg');
+    background-size: cover;
+    color: azure;
+    width: 100%;   
+    font-size: 13px;
+    font-family: 'Noto Serif', serif;
+}
+
+nav{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    padding-right: 20px;
+    width: 100%;
+    background-color: rgb(36, 16, 32);
+    color: white;
+    position: fixed;
+
+}
+
+.Headder_content_title{
+    padding-bottom: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li.nav_item{
+    list-style: none;
+    margin: 4px;
+    
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: inherit;
+}
+.Header_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+}
+
+.Header_content{
+    width: 80%;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+
+.Event_btn{
+    background: none;
+    border: 2px solid rgb(207, 173, 22);
+    color:rgb(189, 185, 188);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.header_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+
+
+.Event_sermon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;  
+     
+}
+
+.Next_event{
+    text-align:center;
+    padding: 0 5px;
+    width: 100px;
+    padding: 5px;
+}
+
+.Latest_sermon{
+    text-align:center;
+    padding: 0 5px;
+    width: 100px;
+    padding: 5px;  
+}
+.Event_btn2{
+    background: none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 9, 210);
+    padding: 5px;
+    margin-top: 5px;
+}  
+
+.Event_btn3{
+    background: none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 9, 210);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.web_body{
+    padding-top: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-size: cover;
+    font-size: 13px;
+}
+
+.web_body_header{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.web_body_content{
+
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.web_body_btn{
+    background: rgb(241, 1, 201);
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 250, 250);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.web_body2{
+    height: 250px;
+    background: linear-gradient(rgba(194, 120, 35, 0.5), rgba(177, 26, 164, 0.7)), url('../New\ folder/panel.jpg');
+    background-size: cover;
+    width: 100%;
+    color: azure;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.web_body2_header{
+    padding-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.web_body2_content{
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+.web_body2_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 13px;
+    
+}
+
+.web_body2_item_RE{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px ;
+    padding-right: 20px;
+
+}
+
+.web_body2_item_RE a{
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.web_body2_item_AD{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px ;
+    padding-left: 20px;
+}
+
+.web_body2_item_AD a{
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.web_body2_btn{
+    background:none;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(250, 250, 250);
+    padding: 5px;
+    margin-top: 5px;
+        
+
+}
+
+.web_body3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.web_body3_mission{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.web_body3_mission1{
+    padding-bottom: 2px;
+}
+
+.web_body3_vision{
+    padding-top: 10px;
+}
+
+.Web_body3_mission2_picture{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.Web_body3_mission2_picture1{
+    padding-top: 40px;
+    padding-right: 10px;
+
+}
+
+.Web_body3_mission2_picture3{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.Web_body3_mission2_note{
+    text-align: center;
+}
+
+
+.Web_body3_mission2_note_text{
+    color: rgb(10, 15, 15);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Web_body3_mission2_note_btn{
+    background:wheat;
+    border: 2px solid rgb(241, 1, 201);
+    color:rgb(189, 76, 76);
+    padding: 5px;
+    margin-top: 10px;
+
+    
+}
+
+
+}
 
